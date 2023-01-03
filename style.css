@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/wyoming-4786394_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.country-content-div{
+    /* height: 400px; */
+    height: 65px;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px rgb(83, 81, 81)
+}
+.country-input-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#country-input{
+    border-radius: 15px;
+    border: 2px solid blue;
+    outline: none;
+    padding: 7px;
+    width: 250px;
+}
+#country-input::placeholder{
+    color: black;
+    font-weight: 500;
+}
+#btn{
+    border: 2px solid blue;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 7px;
+    color: white;
+    background-color: blue;
+}
+.error-div{
+    height: 25px;
+}
+.error{
+    color: red;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+.ing-div{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 209, 236);
+}
+.country-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.flag-img{
+    display: block;
+    width: 45%;
+    height: 100px;
+    margin: 15px;
+}
